@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akhila - web designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat+Brush&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function(){
+          $scroll = $(window).scrollTop();
+          if($scroll>300){
+            $(".a1").addClass("prog");
+          }
+          if($scroll>300){
+            $(".a2").addClass("prog1");
+          }
+          if($scroll>300){
+            $(".a3").addClass("prog2");
+          }
+        });
+        
+      });
+    </script>
+</head>
+<body>
+  <style>
+.prog{
+animation-name: progressAnimationStrike;
+animation-duration: 1.5s;
+width: 100%;
+}
+.prog1{
+    animation-name: progressAnimationStrike1;
+    animation-duration: 1.5s;
+
+}
+.prog2{
+    animation-name: progressAnimationStrike2;
+    animation-duration: 1.5s;
+
+}
+@keyframes progressAnimationStrike {
+    from { width: 50%}
+    to   { width: 100% }
+}
+@keyframes progressAnimationStrike1 {
+    from { width: 50% }
+    to   { width: 95% }
+}
+@keyframes progressAnimationStrike2 {
+    from { width: 40% }
+    to   { width: 80% }
+}
+
+  </style>
+    <section class="sec1"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar py-0 navbar-expand-md navbar-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand logo" href="#" >Website <span class="sp1">.</span></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link ab" href="#Home">Home <span class="ms-2">|</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link ab" href="#about">About <span class="ms-2">|</span></a>
+                              </li>
+                              <!-- <li class="nav-item">
+                                <a class="nav-link ab" href="#">Resume<span class="ms-2">|</span></a>
+                              </li> -->
+                              <li class="nav-item">
+                                <a class="nav-link ab" href="#Projects"> My Projects <span class="ms-2">|</span></a>
+                              </li> 
+
+                              <!-- <li class="nav-item">
+                                <a class="nav-link ab" href="#">Portfolio <span class="ms-2"></span></a>
+                              </li>   -->
+                              <li class="nav-item dropdown">
+                                <!-- <a class="nav-link dropdown-toggle ab" href="#" role="button" data-bs-toggle="dropdown">projects</a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item ab" href="#">project1</a></li>
+                                  <li><a class="dropdown-item ab" href="#">project2</a></li>
+                                  <li><a class="dropdown-item ab" href="#">project3</a></li>
+                                </ul> -->
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="over">
+    <section class="sec2" id="Home">
+      <div class="obacity">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="inbox1">
+                        <h1 class="head" data-aos="fade-right">Akhilaarumughan</h1>
+                        <h5 class="head1" data-aos="fade-left">i'm a web developer</h5>   
+                       <!-- <div><img src="icon.png" alt="" class="ic"></div> -->
+                       <i class="bi-chevron-double-down ic1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="inboxx01">
+              <h1 class="as">ABOUT US<span  class="sp1"> . </span></h1>
+              <img src="person(1).png" alt="" srcset="" height="100%" width="100%" class="ak">
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <div class="inboxx02">
+              <p class="pg"> Hi, I’m Akhila, an aspiring Web Developer passionate about creating beautiful and functional websites. I love combining creativity with coding to build clean, user-friendly, and responsive designs.I’m currently learning and working with HTML, CSS, JavaScript, PHP, and MySQL, along with tools like VS Code, WordPress,Bootstrap, and GitHub. I enjoy customizing WordPress themes, designing layouts with Bootstrap, and managing projects through GitHub. Each project helps me grow my technical skills and deepen my understanding of how design and functionality connect.</p>
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="inboxx03">
+                  <h1 class="sk  mb-0" >skills</h1>
+                  <div class="line1"></div>
+                  <h6>HTML&css</h6>
+                  <div class="progress mb-3">
+                 <div class="progress-bar bg-col2 a1" >100%</div>
+               </div>
+                <h6>JAVASCRIPT&JQUERY</h6>
+                 <div class="progress mb-3">
+                  <div class="progress-bar bg-col2 a2" style="width:95%">95%</div>
+                 </div>
+                 <h6>PHP</h6>
+              <div class="progress mb-3">
+                <div class="progress-bar bg-col2 a3" style="width:80%">80%</div>
+            </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section class="sec5" id="Projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="inbox6"  data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
+             <h1 class="pr"> MY PROJECTS<span class="dot1"> .</span></h1>
+               <!-- <div class="line2"></div> -->
+         <div class="row">
+        <div class="col-sm-6">
+      <div class="inbox8">
+        <a href="https://akhilaammuzz.github.io/project1/"> 
+          <img src="project01.png" alt="" srcset="" width="100%" class="pr01">
+             </a> 
+              </div>
+                 </div>
+             <div class="col-sm-6">
+          <div class="inbox9">
+        <a href="https://akhilaammuzz.github.io/project3/">
+           <img src="brisket screenshot.png" alt="" srcset="" width="100%" class="pr02">
+             </a>
+              </div>
+               </div>
+                  </div> 
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="inbox10">
+                <a href="https://akhilaammuzz.github.io/project4/">
+                  <img src="Capture.PNG" alt="" srcset="" width="100%" class="pr002">
+                  </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="inbox11">
+                <a href="https://akhilaammuzz.github.io/project5/">
+                  <img src="project5.PNG" alt="" width="100%" class="pr03">
+                </a>
+              </div>
+            </div>
+       
+          <div class="row">
+            <div class="col-sm-6"> 
+              <div class="inbox12">
+                <a href="https://akhilaammuzz.github.io/project6/">
+                  <img src="project6.PNG" alt="" width="100%" class="pr04"></a>
+              </div>
+            </div>
+            <div class="col-sm-6"> 
+              <div class="inbox013">
+                <a href="https://akhilaammuzz.github.io/project8/">
+                <img src="project8.PNG" alt="" width="100%" srcset="" class="pr04">
+              </div>
+            </div>
+          </div>
+            
+        </div>
+        </div>
+
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="sec6"> 
+      <div class="container">
+        <div class="row">
+     
+          <div class="col-sm-12">
+            <div class="inboxx04">
+              <a href="https://www.facebook.com/"><i class="bi-facebook fk"></i></a>
+              <a href="https://www.instagram.com/accounts/login/"><i class="bi-instagram fk1"></i></a>
+              <a href="https://github.com/login"><i class="bi-github fk2"></i></a>
+              <a href="https://in.linkedin.com/"><i class="bi-linkedin fk3"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <section>
+        <div class="container">
+          <div class="row">
+                <div class="col-sm-12">
+              <div class="inboxx05">
+              <p class="copy">&copy;copyright2024:Akhilaarumughan</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+    
+
+   
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once:'true',
+        duration:"1500"
+      });
+    </script>
+    
+
+    
+</body>
+</html>

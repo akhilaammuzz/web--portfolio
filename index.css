@@ -1,0 +1,370 @@
+.sec1{
+    background-color: rgb(254, 254, 254);
+}
+.sec2{
+    /* background-color: aqua; */
+    background-image: url(background1.avif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (max-width:468px) {
+    .sec2{
+    
+    background-image: url(background1.avif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+    }
+ 
+
+.inbox1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 100px 50px;
+    padding-top: 120px;
+}
+/* .ic{
+    height: 50px;
+    width: 60px;
+} */
+.head{
+    /* font-family: Harlow Solid; */
+   /* font-family: Lucida Bright; */
+     color:white;
+     font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+     letter-spacing: 2px;
+}
+.head1{
+    color: aliceblue;
+    font-size: 50px;
+    /* font-family: callibri; */
+    /* font-family: Gabriola; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+
+.head:hover{
+    text-shadow: 5px 5px 5px 5px black;
+}
+
+.logo{
+    font-family: Lucida Bright;
+    font-size: 30px !important;
+    color:black !important;
+}
+.sp1{
+    color: #32dbc6;
+    font-size: 40px;
+    margin-bottom: 0px;
+
+}
+.obacity{
+    background-color: rgba(0, 0, 0, 0.203);
+}
+.ab{
+    /* font-family:  Harlow Solid; */
+    font-family:  "Playfair Display", serif;
+    font-size: 23px !important;
+    color: black !important;
+    transition: 0.5s;
+    font-weight: bold !important;
+}
+.ab:hover{
+    color: #32dbc6 !important;
+    transition: 0.5s;
+
+}
+
+#pro{
+     text-decoration: none;
+     color: rgb(249, 249, 249);
+     padding: 6px 26px;
+     border-radius: 0px;
+     border-style: solid;
+     background-color: rgb(4, 4, 4);
+     font-family: Lucida Console;
+     display: inline-block;
+     /* border-color: aliceblue; */
+     margin-top: 110px;
+     /* box-shadow: 5px 5px 10px black;      */
+     font-size: 20px;
+     transition: 1s;
+
+}
+.pro:hover{
+    color:  #32dbc6 !important;
+}
+
+.ic1{
+    font-size: 30px;
+    color: aliceblue;
+    transition: 1s;
+    display: inline-block;
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 30px;
+
+}
+.ic1:hover{
+    color:  #32dbc6 !important;
+
+}
+
+@keyframes jump{
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.inbox5{
+    padding-top:55px ;
+
+}
+
+.bg-col2{
+    background-color:#32dbc6!important;
+}
+.sk{
+    /* margin: 10px; */
+    font-weight: 500;
+    /* padding-bottom: 0px 5px; */
+    font-family: Sitka Display;
+}
+.line1{
+    height: 1.5px;
+    width: 15%;
+    background-color: rgb(175, 175, 175);
+    margin-bottom: 10px;
+
+}
+.inbox6{
+    min-height: 500px;
+    /* background-color: rgb(96, 3, 73); */
+    /* padding: 30px 30px; */
+
+}
+.inbox7{
+    min-height: 350px;
+    /* background-color:rgba(0, 0, 0, 0.084); */
+    margin: 0px 20px;
+    padding: 20px 20px;
+
+}
+
+.inbox8{
+    min-height: 200px;
+    /* background-color:rgba(54, 19, 168, 0.93); */
+    padding: 30px;
+    /* margin: 20px; */
+
+}
+.inbox8:hover .pr01{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 1s;
+}
+.pr{
+    color: rgb(0, 0, 0);
+    font-family: Rockwell;
+    font-size: 30px; 
+
+}
+.pr01{
+    /* border: 5px solid rgb(96, 3, 73) ; */
+    box-shadow: 5px 5px 5px black;
+    transition: 1s;
+    border-radius: 5px;
+
+
+}
+.line2{
+    height: 1.5px;
+    width: 15%;
+    background-color: rgb(96, 3, 73);
+    /* margin-bottom: px; */
+    margin-top: 10px;
+
+}
+.dot1{
+    color: #32dbc6;
+    font-size: 50px;
+}
+.inbox9{
+    min-height: 200px;
+    padding: 30px;
+    /* margin: 20px; */
+}
+.inbox9:hover .pr02{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 1s;
+}
+.pr02{
+    box-shadow: 5px 5px 5px black;
+    transition: 1s;
+    border-radius: 5px;
+
+
+}
+.inbox11{
+    min-height: 200px;
+    padding: 30px;
+    /* margin: 20px; */
+}
+.inbox11:hover .pr03{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 1s;
+}
+.pr03{
+    box-shadow: 5px 5px 5px black;
+    transition: 1s;
+    border-radius: 5px;
+}
+.inbox12{
+    min-height: 200px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.inbox12:hover .pr04{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 1s;
+}
+.inboxx02{
+    margin-top: 180px;
+}
+
+@media (max-width:468px) {
+    .inboxx02{
+        margin-top: 20px;
+    }
+  
+    
+    
+}
+.inbox013{
+    min-height: 200px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.inbox013:hover .pr04{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 1s;
+}
+.pr04{
+    box-shadow: 5px 5px 5px black;
+    transition: 1s;
+    border-radius: 5px;
+}
+.inbox10{
+    min-height: 200px;
+    /* background-color:rgba(54, 19, 168, 0.93); */
+    padding: 30px;
+    /* margin: 20px; */
+}
+.inbox10:hover .pr002{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 1s;
+}
+.pr002{
+    box-shadow: 5px 5px 5px black;
+    transition: 1s;
+    border-radius: 5px;
+}
+.over{ 
+    overflow: hidden;
+}
+.inboxx01{
+    margin-top: 70px;
+    padding: 20px;
+    margin-bottom: 50px !important;
+}
+.as{
+    text-align: center;
+    /* font-weight: bold !important; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    
+    
+   
+
+}
+.pg{
+    text-align: justify;
+    /* padding-top: 20PX; */
+    /* margin-top: 60px; */
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+
+}
+.ak{
+    margin-top: 20px !important;
+    display: inline-block;
+    box-shadow: 0px 5px 5px 0px black;
+}
+.inboxx03{
+    padding-top: 20px;
+}
+    
+.inboxx04{
+    margin-top: 50px;
+    padding-top: 20px 5px;
+    text-align: center;
+}
+.copy{
+    font-weight: 500;
+    font-size: 20px;
+}
+.ak01{
+    color: rgb(74, 69, 69);
+    font-style: italic;
+    
+}
+.sec6{
+    background-color: rgba(101, 97, 97, 0.185);
+}
+.inboxx05{
+
+    text-align: center;
+}
+.fk{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+
+}
+.fk1{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+.fk2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+
+}
+.fk3{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+
+}
+
+
+
+
